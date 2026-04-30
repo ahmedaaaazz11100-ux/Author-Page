@@ -1,0 +1,165 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(1, 96, 134);
+}
+
+.name-author {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.401), rgba(50, 50, 50, 0.409)), url(images/Neutral\ Small\ Library\ Oasis.jpg);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.name-author:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.544), rgba(50, 50, 50, 0.529)), url(images/Neutral\ Small\ Library\ Oasis.jpg);
+    font-size: 36px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+}
+
+.image-Author {
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.information {
+    width: 700px;
+    margin-right: 20px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.image-Author img {
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.book-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.book-card {
+    width: 180px;
+    padding-top: 10px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(0, 118, 182), rgb(122, 206, 251));
+}
+
+.book-card:hover {
+    background-image: linear-gradient(to left, rgb(0, 118, 182), rgb(122, 206, 251));
+}
+
+.buy {
+    margin-top: 5px;
+    text-align: center;
+}
+
+input {
+    background-color: rgb(0, 95, 143);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    border: solid transparent 2px;
+    font-size: 20px;
+}
+
+input:hover {
+    background-image: linear-gradient(to right, rgb(0, 63, 95), rgb(91, 198, 255));
+    border: solid rgb(0, 85, 116) 3px;
+    color: white;
+    font-size: 21px;
+}
+
+.book-name a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.book-name {
+    text-align: center;
+}
+
+.book-img img:hover {
+    height: 210px;
+    width: auto;
+}
+
+.name-author:hover {
+    text-shadow: 7px 7px 3px rgb(0, 0, 0);
+}
+
+.book-name:hover {
+    text-shadow: 5px 5px 3px black;
+}
+
+.inf {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.book-img {
+    margin-left: 25px;
+}
+
+.book-card {
+    transition: 0.3s ease;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.8);
+}
+
+.img-Author {
+    transition: 0.3s ease-in;
+}
+
+.image-Author:hover {
+    transform: scale(1.05);
+}
+
+.image-Author img {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.image-Author img:hover {
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.8);
+}
+
+input {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+input:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
